@@ -1,0 +1,16 @@
+{
+  "name": "CurrenzyX",
+  "short_name": "CurrenzyX",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#4e54c8",
+  "theme_color": "#8f94fb",
+  "description": "A colorful currency converter made with ❤️ by Sujit",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -26,3 +26,4 @@ Powered by [exchangerate.host](https://exchangerate.host)
 ## License
 
 MIT
+

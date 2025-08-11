@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CurrenzyX - Made with ❤️ by Sujit</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 CurrenzyX</h1>
+    <div class="converter">
+      <select id="fromCurrency"></select>
+      <select id="toCurrency"></select>
+      <input type="number" id="amount" placeholder="Enter amount" />
+      <button onclick="convertCurrency()">Convert</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Sujit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => console.log("Service Worker Registered"));
+  }
+</script>
+
+</html>
